@@ -3,14 +3,18 @@ body{
     padding: 0;
 
 }
-.custom-rectangle {
-    width: 200px; /* Adjust width as needed */
-    height: 250px; /* Adjust height as needed */
-    background-color: #ff8c00; /* Orange color */
-    clip-path: polygon(0 0, 70% 0, 100% 60%, 0 100%); /* Creates the angled shape */
+.rectangle {
+    margin: 0;
+    width: 100%; 
+    height: 30vh; 
+    padding-bottom: 40%; 
+    background-color: #ff8c00; 
+    max-width: 600px; 
+    margin-left: -50%;
+    transform: rotate(-15deg); 
   }
+ 
 .card{
-    margin-top: 50%;
     background-color: orange;
     padding: 40px;
 }
