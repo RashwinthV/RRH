@@ -29,7 +29,8 @@ body{
 .input-group-text{
     border: none;
 }
-.btn{
+.bt{
+    border: none;
     background-color: orangered;
     width: 50%;
     border-radius: 20px;

@@ -11,7 +11,7 @@ body{
     background-color: #ff6200; 
     max-width: 600px;
     margin-left: -40%;
-    margin-top: -20%;
+    margin-top: -22%;
     transform: rotate(-140deg); 
   }
  
@@ -22,24 +22,17 @@ body{
         transform: rotate(-140deg);
     }
   }
-  h1{
-    color: black;
-    font-weight: 900;
+  .disp{
+    background-color: #ff9318;
+    padding: 10% 10%;
+    border-radius: 10px;
   }
-#card{
-    background-color: #ff8c00;
-    max-width: 300px;
-    padding: 40px;
-}
-#cod1,#cod2,#cod3,#cod4{
-  border-radius: 4px;
-}
-.sub{
-  text-decoration: none;
-  color: white;
-  background-color: #ff5500;
-  font-weight: bolder;
-  border-radius: 20px;
-  padding: 10px 40px;
-
-}
+  .disp img{
+    position: relative;
+    background-color: white;
+    border-radius: 60%;
+    margin-bottom:15%;
+  }
+  .disp h2{
+    color: white;
+  }
