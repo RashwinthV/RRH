@@ -10,7 +10,7 @@ function verifyOTP() {
     ].join('');
 let generatedOtp=genotp();
     if (inputCode == generatedOtp) {
-        info("OTP Verified Successfully!");
+        alert("OTP Verified Successfully!");
         window.location.href = "success.html";  // Redirect to success page
     } else {
         alert("Invalid OTP. Please try again.");
