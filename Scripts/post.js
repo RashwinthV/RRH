@@ -8,6 +8,7 @@ function post(){
     localStorage.setItem("email",email);
     localStorage.setItem("contact",phone);
     localStorage.setItem("password",passw);
+    window.location.href="../HTML/verify.html"
 
 
 }
