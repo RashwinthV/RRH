@@ -2,8 +2,8 @@ function val(){
     var name=document.getElementById("name").value;
     var pass=document.getElementById("Password").value;
 
-    var na=localStorage.getItem("Name");
-    var pa=localStorage.getItem("password");
+    var na="rashwinth"
+    var pa="123456"
 
     if(name==na&&pass==pa){
         window.location.href="../HTML/image.html"
